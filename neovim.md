@@ -19,3 +19,15 @@ source ~/.bashrc
 ```
 
 **Important:** Note that Flatpak'ed Neovim will look for `init.vim` in `~/.var/app/io.neovim.nvim/config/nvim` instead of `~/.config/nvim`.
+
+## LazyVim
+
+Install it in the flatpak config directory
+```bash
+git clone https://github.com/LazyVim/starter ~/.var/app/io.neovim.nvim/config/nvim
+```
+
+Remove the .git folder so I can push my configs to my own repo
+```bash
+rm -rf ~/.var/app/io.neovim.nvim/config/nvim/.git
+```
