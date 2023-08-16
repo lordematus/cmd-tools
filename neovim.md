@@ -32,6 +32,11 @@ Remove the .git folder so I can push my configs to my own repo
 rm -rf ~/.var/app/io.neovim.nvim/config/nvim/.git
 ```
 
+Install repgrep to enable grep
+```bash
+$ sudo apt install ripgrep
+```
+
 ## Configuration
 
 Installing Firacode on debian
