@@ -31,3 +31,17 @@ Remove the .git folder so I can push my configs to my own repo
 ```bash
 rm -rf ~/.var/app/io.neovim.nvim/config/nvim/.git
 ```
+
+## Configuration
+
+Installing Firacode on debian
+```bash
+sudo apt install fonts-firacode
+```
+
+- Download Meslo on: https://www.nerdfonts.com/font-downloads
+- Install:
+  - MesloLGS Nerd Font Regular
+  - MesloLGS Nerd Font Bold
+  - MesloLGS Nerd Font italic
+  - MesloLGS Nerd Font Bold italic
